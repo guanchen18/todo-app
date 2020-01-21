@@ -5,7 +5,7 @@ const Todos = ({todos}) => {
     const todoList=todos.length ? (
         todos.map(todo => {
             return (
-                <div>
+                <div key={todo.id}>
                     <span>{todo.content}</span>
                 </div>
             )
@@ -16,7 +16,7 @@ const Todos = ({todos}) => {
 
     return (
         <div>
-            {todoList}
+            
         </div>
     )
 
