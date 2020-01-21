@@ -1,0 +1,25 @@
+import React from 'react';
+
+const Todos = ({todos}) => {
+    
+    const todoList=todos.length ? (
+        todos.map(todo => {
+            return (
+                <div>
+                    <span>{todo.content}</span>
+                </div>
+            )
+        })
+    ) : (
+        <p>you have no todo's left, yay!</p>
+    )
+
+    return (
+        <div>
+            {todoList}
+        </div>
+    )
+
+}
+
+export default Todos;
