@@ -16,7 +16,7 @@ const Todos = ({todos}) => {
 
     return (
         <div>
-            
+        {todoList}
         </div>
     )
 
