@@ -6,7 +6,7 @@ class App extends Component {
   state = {
     todos: [
       {id: 1, content: 'buy some juice'},
-      {id: 2, content: 'clean house'}
+      {id: 2, content: 'do laundry'}
     ]
   }
   addTodo = (todo) => {
